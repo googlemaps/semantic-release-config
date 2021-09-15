@@ -31,11 +31,12 @@ jobs:
         uses: cycjimmy/semantic-release-action@v2
         with:
           extra_plugins: |
-            "@semantic-release/commit-analyzer"
-            "@semantic-release/release-notes-generator"
-            "@semantic-release/git
-            "@semantic-release/github
-            "@semantic-release/npm
+            @semantic-release/commit-analyzer
+            @semantic-release/release-notes-generator
+            @semantic-release/git
+            @semantic-release/github
+            @semantic-release/npm
+            @googlemaps/semantic-release-config
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_WOMBAT_TOKEN }}
