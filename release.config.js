@@ -25,6 +25,17 @@ const config = {
   options: {
     debug: true,
   },
+  branches: [
+    "main",
+    {
+      name: "beta",
+      prerelease: true,
+    },
+    {
+      name: "alpha",
+      prerelease: true,
+    },
+  ],
 };
 
 module.exports = config;
