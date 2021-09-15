@@ -25,7 +25,7 @@ jobs:
       - name: Test
         run: |
           npm i
-          npm lint
+          npm run lint
           npm test
       - name: Release
         uses: cycjimmy/semantic-release-action@v2
