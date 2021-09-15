@@ -27,3 +27,7 @@ The shareable config can be configured in the [**semantic-release** configuratio
   "extends": "@googlemaps/semantic-release-config"
 }
 ```
+
+## Overrides
+
+* `docs(README)` triggers a `PATCH` release
