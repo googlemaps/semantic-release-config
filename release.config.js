@@ -22,6 +22,13 @@ const config = {
         releaseRules: [{ type: "docs", scope: "README", release: "patch" }],
       },
     ],
+    [
+      "semantic-release-interval",
+      {
+        duration: 1,
+        units: "month",
+      },
+    ],
     "@semantic-release/release-notes-generator",
     "@semantic-release/github",
     "@semantic-release/npm",
