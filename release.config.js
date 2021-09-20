@@ -29,7 +29,61 @@ const config = {
         units: "week",
       },
     ],
-    "@semantic-release/release-notes-generator",
+    [
+      "@semantic-release/release-notes-generator",
+      {
+        preset: "conventionalcommits",
+        presetConfig: {
+          types: [
+            {
+              type: "feat",
+              section: "Features",
+              hidden: false,
+            },
+            {
+              type: "fix",
+              section: "Bugs",
+              hidden: false,
+            },
+            {
+              type: "docs",
+              section: "Docs",
+              hidden: false,
+            },
+            {
+              type: "style",
+              section: "Other",
+              hidden: false,
+            },
+            {
+              type: "refactor",
+              section: "Other",
+              hidden: false,
+            },
+            {
+              type: "perf",
+              section: "Other",
+              hidden: false,
+            },
+            {
+              type: "test",
+              section: "Other",
+              hidden: false,
+            },
+            {
+              type: "ci",
+              section: "Other",
+              hidden: false,
+            },
+            {
+              type: "chore",
+              section: "Other",
+              hidden: false,
+            },
+          ],
+        },
+      },
+    ],
     "@semantic-release/github",
     "@semantic-release/npm",
     "@semantic-release/git",
