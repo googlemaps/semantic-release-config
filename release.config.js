@@ -54,6 +54,7 @@ const config = {
     "@semantic-release/github",
     "@semantic-release/npm",
     "@semantic-release/git",
+    "semantic-release-npm-deprecate",
   ],
   options: {
     debug: true,
