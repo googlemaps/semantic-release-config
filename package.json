@@ -29,7 +29,7 @@
     "@semantic-release/commit-analyzer": "^9.0.1",
     "@semantic-release/git": "^10.0.0",
     "@semantic-release/github": "^8.0.0",
-    "@semantic-release/npm": "^8.0.0",
+    "@semantic-release/npm": "^9.0.0",
     "@semantic-release/release-notes-generator": "^10.0.2",
     "conventional-changelog-conventionalcommits": "^4.6.1"
   },
