@@ -25,19 +25,19 @@
     "test": "echo 'no tests'"
   },
   "dependencies": {
-    "@semantic-release/changelog": "^6.0.0",
-    "@semantic-release/commit-analyzer": "^9.0.1",
-    "@semantic-release/git": "^10.0.0",
-    "@semantic-release/github": "^8.0.0",
-    "@semantic-release/npm": "^8.0.0",
-    "@semantic-release/release-notes-generator": "^10.0.2",
-    "conventional-changelog-conventionalcommits": "^4.6.1"
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/commit-analyzer": "^9.0.2",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^8.0.4",
+    "@semantic-release/npm": "^8.0.3",
+    "@semantic-release/release-notes-generator": "^10.0.3",
+    "conventional-changelog-conventionalcommits": "^4.6.3"
   },
   "devDependencies": {
-    "prettier": "^2.0.4"
+    "prettier": "^2.6.2"
   },
   "peerDependencies": {
-    "semantic-release": ">=16.0.0 <18.0.0"
+    "semantic-release": "^19.0.2"
   },
   "publishConfig": {
     "access": "public",
