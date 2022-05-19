@@ -26,7 +26,7 @@ const config = {
       "semantic-release-interval",
       {
         duration: 1,
-        units: "week",
+        units: "month",
       },
     ],
     [
